@@ -21,7 +21,10 @@ Este repositório tem como objetivo principal acompanhar minha evolução pessoa
 - JavaScript
 - HTML/CSS
 
+## 🔍 Notas
+- Lembre-se: o objetivo é aprender, então pode haver erros e áreas a melhorar.
 
+- Sinta-se à vontade para explorar e aprender junto! 😄
 
 
 
