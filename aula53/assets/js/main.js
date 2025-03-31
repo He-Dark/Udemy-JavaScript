@@ -6,28 +6,4 @@ const elementos = [
   { tag: "section", texto: "Frase 4" },
 ];
 
-function criandoP() {
-  const { texto } = elementos[0];
-  return texto;
-}
-
-function criandoDiv() {
-  const { texto } = elementos[1];
-  return texto;
-}
-
-function criandoFooter() {
-  const { texto } = elementos[2];
-  return texto;
-}
-
-function criandoSection() {
-  const { texto } = elementos[3];
-  return texto;
-}
-
-const para = criandoP();
-const divisao = criandoDiv();
-const pe = criandoFooter();
-const secao = criandoSection();
-resultado.innerHTML = `<p>${para}</p>\n <div>${divisao}</div>\n <footer>${pe}</footer>\n <section>${secao}</section>`;
+resultado.innerHTML = `<p>${elementos[0].texto}</p>\n <div>${elementos[1].texto}</div>\n <footer>${elementos[2].texto}</footer>\n <section>${elementos[3].texto}</section>`;
